@@ -1,0 +1,75 @@
+html, body {
+    width:100%;
+    margin:0;
+    overflow-x:hidden;
+}
+
+#unicorn {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:1;
+    width: 150px;
+    height:auto;
+}
+
+#room-1 {
+    height:100vh;
+    background-image: url("images/wildflowers.avif");
+    background-size: cover;
+    
+}
+
+.wall {
+    position:relative;
+    height:10px;
+    width:100%;
+    background-color: #999;
+}
+
+.front-door {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    height:100%;
+    width:250px;
+    background-color:#000;
+}
+
+#room-2 {
+    height:200vh;
+    background-image: url("images/mushroom forest.avif");
+   
+   
+}
+
+#room-3 {
+    height:100vh;
+    background-image: url("images/cloud.avif");
+   
+    
+}
+.room{
+    background-size: cover;
+     position:relative;
+    width:100vw;
+}
+#frog {
+    position:absolute;
+    bottom: 250px;
+    right: 200px;
+    transform:translateX(-50%);
+    z-index:2;
+    width: 100px;
+    height:auto;
+}
+#gnome {
+    position:absolute;
+    bottom: 50px;
+    right: .5px;
+    transform:translateX(-50%);
+    z-index:2;
+    width: 100px;
+    height:auto;
+}
